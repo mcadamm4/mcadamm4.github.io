@@ -1,0 +1,82 @@
+html{
+    background-color: #e6e9e9;
+    background-image: -webkit-linear-gradient(
+        270deg,rgb(230,233,233) 0%,rgb(216,221,221) 100%);
+    background-image: linear-gradient(
+        270deg,rgb(230,233,233) 0%,rgb(216,221,221) 100%);
+    -webkit-font-smoothing: antialiased;
+}
+body{
+    margin: 0 auto;
+    background-attachment: scroll; 
+    background-image: url("https://i.ytimg.com/vi/4yfLHuE6mt8/maxresdefault.jpg");
+    background-attachment: fixed;
+    padding: 5em 10em 30em;
+    max-width: 1200px;
+    font-family: "Helvetica Neue", 
+                 Helvetica, Arial, 
+                 sans-serif;
+    font-size: 20px;
+    line-height: 2em;
+    color: black;
+    background-color: white;
+    box-shadow: 0 0 2opx rgba(0, 0, 0, 0.08);
+}
+h1{
+    color: black;
+}
+h2{
+    margin-top: 1em;
+    color: black;
+}
+p{
+    padding-left:5em;
+}
+a{
+    color: black;
+}
+b, strong {
+    font-weight: 600;
+}
+table,th,td{
+    border: 1px solid black;
+}
+th,td{
+    padding: 5px;
+}
+.ul.pagination{
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+ul.pagination li{
+    display: inline;
+}
+ul.pagination li a{
+    color: white;
+    float: center;
+    padding: 8px 16px;
+    transition: background-color .3s;
+}
+ul.pagination li a.active{
+    background-color: cadetblue;
+    color: white;
+}
+ul.pagination li a:hover:not(.active){
+    background-color: #ddd;
+}
+@-webkit-keyframes colorize{
+    0%{-webkit-filter: grayscale(100%);
+    }
+    100%{
+        -webkit-filter: grayscale(0%);
+    }
+}
+@keyframes colorize{
+    0%{
+        filter: grayscale(100%);
+    }
+    100%{
+        filter: grayscale(0%);
+    }
+}
