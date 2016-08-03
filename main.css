@@ -8,8 +8,7 @@ html{
 body{
     margin: 0 auto;
     background-attachment: scroll; 
-    background-image: image('Images/lightBlueWallpaper.jpg')
-    /*background-image: url("https://i.ytimg.com/vi/4yfLHuE6mt8/maxresdefault.jpg");*/
+    background-image: url("Images/zurich.jpg");
     background-attachment: fixed;
     padding: 5em 10em 30em;
     max-width: 1200px;
@@ -18,32 +17,33 @@ body{
                  sans-serif;
     font-size: 20px;
     line-height: 2em;
-    color: black;
+    color: white;
     background-color: white;
     box-shadow: 0 0 2opx rgba(0, 0, 0, 0.08);
 }
 h1{
-    color: black;
+    color: white;
 }
 h2{
     margin-top: 1em;
-    color: black;
+    color: white;
 }
 p{
     padding-left:5em;
 }
 a{
-    color: black;
+    color: white;
 }
 b, strong {
     font-weight: 600;
 }
 table,th,td{
-    border: 1px solid black;
+    background:rgba(0,0,0,0.55);
+
 }
 th,td{
     padding: 5px;
-    font-weight: bold;
+    font-weight: 100;
 }
 .ul.pagination{
     display: inline-block;
