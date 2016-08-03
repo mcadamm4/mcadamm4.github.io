@@ -43,6 +43,7 @@ table,th,td{
 }
 th,td{
     padding: 5px;
+    font-weight: bold;
 }
 .ul.pagination{
     display: inline-block;
