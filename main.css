@@ -6,10 +6,10 @@ html{
         270deg,rgb(230,233,233) 0%,rgb(216,221,221) 100%);
 }
 body{
-    margin: 0 auto;
-    background-attachment: scroll; 
+    margin:auto;
     background-image: url("Images/zurich.jpg");
-    background-attachment: fixed;
+    background-attachment:fixed;
+    background-size: cover;
     padding: 5em 10em 30em;
     max-width: 1200px;
     font-family: "Helvetica Neue", 
@@ -23,6 +23,8 @@ body{
 }
 h1{
     color: white;
+    padding-left:5em;
+
 }
 h2{
     margin-top: 1em;
@@ -33,13 +35,13 @@ p{
 }
 a{
     color: white;
+    padding-left:2em;
 }
 b, strong {
     font-weight: 600;
 }
 table,th,td{
     background:rgba(0,0,0,0.55);
-
 }
 th,td{
     padding: 5px;
