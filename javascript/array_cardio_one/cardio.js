@@ -93,8 +93,17 @@ const people = [
     console.table(sortedNames);
 
 // 8. Reduce exercise
-//     - Sum up the instances of each fo these
-
+//     - Sum up the instances of each of these
+    console.log("8. Reduce exercise \n   - Sum up the instances of each fo these \n\n const data = ['car', 'car', 'truck', 'truck', 'bike', \n 'walk', 'car', 'van', 'bike', 'walk', 'car', 'van', 'car', 'truck' ] ");
     const data = ['car', 'car', 'truck', 'truck',
                 'bike', 'walk', 'car', 'van', 'bike',
-                'walk', 'car', 'van', 'car', 'truck' ]
+                'walk', 'car', 'van', 'car', 'truck's ]
+
+    const transportration = data.reduce(function(obj, item) {
+        if(!obj[item])
+            obj[item]=0;
+        obj[item]++;
+        return obj;
+    }, {});
+
+    console.log(transportration);
